@@ -1,0 +1,15 @@
+2020-10-11 12:52:10.831  INFO 10120 --- [Thread-23] org.mongodb.driver.connection            : Closed connection [connectionId{localValue:7, serverValue:204}] to localhost:27017 because the pool has been closed.
+2020-10-11 12:53:17.222  INFO 10120 --- [restartedMain] c.a.a.AnalyticsServicesApplication       : Starting AnalyticsServicesApplication on azCom42 with PID 10120 (E:\FleetSrpingProject\message_processor\analytics-services\target\classes started by spmishra in E:\FleetSrpingProject\message_processor\analytics-services)
+2020-10-11 12:53:17.222 DEBUG 10120 --- [restartedMain] c.a.a.AnalyticsServicesApplication       : Running with Spring Boot v2.3.3.RELEASE, Spring v5.2.8.RELEASE
+2020-10-11 12:53:17.255  INFO 10120 --- [restartedMain] c.a.a.AnalyticsServicesApplication       : No active profile set, falling back to default profiles: default
+2020-10-11 12:53:45.694  INFO 10120 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-11 12:53:45.695  INFO 10120 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-10-11 12:53:46.216  INFO 10120 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-11 12:53:47.724  INFO 10120 --- [restartedMain] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2020-10-11 12:53:48.887  INFO 10120 --- [cluster-ClusterId{value='5f82b303e0fae40310248abf', description='null'}-localhost:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:8, serverValue:208}] to localhost:27017
+2020-10-11 12:53:49.028  INFO 10120 --- [cluster-ClusterId{value='5f82b303e0fae40310248abf', description='null'}-localhost:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=9, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1183200}
+2020-10-11 12:54:21.667  INFO 10120 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-11 12:54:27.979  INFO 10120 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-10-11 12:54:28.246  INFO 10120 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-10-11 12:54:28.524  INFO 10120 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-10-11 12:54:30.923  INFO 10120 --- [restartedMain] c.a.a.AnalyticsServicesApplication       : Started AnalyticsServicesApplication in 90.071 seconds (JVM running for 339293.74)
